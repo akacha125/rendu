@@ -21,7 +21,7 @@ public class PokerHoldem {
         joueurs = new ArrayList<>();
         cartesCommunes = new CartesCommunes();
 
-        // Initialize players
+      
         for (String nom : nomsJoueurs) {
             joueurs.add(new Joueur(nom));
         }
