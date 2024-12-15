@@ -38,5 +38,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'edu.info0502.pocker.Publisher'
+    mainClass = 'edu.info0502.pocker.Subscriber'
 }
