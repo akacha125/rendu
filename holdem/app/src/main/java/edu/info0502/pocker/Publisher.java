@@ -18,7 +18,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
 public class Publisher {
-    private static final String MQTT_BROKER = "tcp://localhost:1883";
+    private static final String MQTT_BROKER = "tcp://10.11.18.72:1883";
     private static final String GAME_TOPIC = "poker/game/#";  // pour tous le games topics
     private static final String TABLE_TOPIC_PREFIX = "poker/game/table/";
     private static final String PLAYER_TOPIC_PREFIX = "poker/player/";

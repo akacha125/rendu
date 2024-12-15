@@ -14,7 +14,7 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import com.google.gson.Gson;
 
 public class Subscriber {
-    private static final String MQTT_BROKER = "tcp://localhost:1883";
+    private static final String MQTT_BROKER = "tcp://10.11.18.72:1883";
     private static final String GAME_TOPIC = "poker/game/#";
     private static final String PLAYER_TOPIC_PREFIX = "poker/player/";
     
